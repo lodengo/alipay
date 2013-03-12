@@ -1,3 +1,8 @@
+﻿
+/**
+ * Module dependencies.
+ */
+
 var express = require('express')
   , demo = require('./routes/alipaydemo')
   , http = require('http')
@@ -25,7 +30,7 @@ app.configure('development', function(){
 
 require('./alipay_config').alipay.route(app);
 
-app.get('/', function(req, res){  
+app.get('/', function(req, res){	
 	res.render("index");	
 });
 
