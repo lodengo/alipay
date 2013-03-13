@@ -1,14 +1,14 @@
-﻿{
+{
     "name": "alipay",
-    "description": "alipay 支付宝 api 即时到帐支付 node",    
+    "description": "alipay api",
     "author": "dengdonglin",
     "version": "1.0.0",
-    "repository" : {
-        "type" : "git",
-        "url" : "https://github.com/lodengo/alipay.git"
-    }, 
-	"main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lodengo/alipay.git"
+    },
+    "main": "index.js",
     "dependencies": {
         "xmldom": "0.1.13"
-    }    
+    }
 }
