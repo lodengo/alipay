@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /* *
  * 功能：支付宝纯担保交易接口接口调试入口页面
  * 版本：3.3
@@ -191,6 +191,34 @@ ul,ol{
                         <span class="null-star">*</span>
                         <input size="30" name="WIDprice" />
                         <span>必填
+</span>
+                    </dd>
+					<dt>商品数量：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30" name="WIDquantity" value='1'/>
+                        <span>必填 建议默认为1，不改变值，把一次交易看成是一次下订单而非购买一件商品
+</span>
+                    </dd>
+					<dt>物流费用：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30" name="WIDlogistics_fee" value='0.00'/>
+                        <span>必填，即运费
+</span>
+                    </dd>
+					<dt>物流类型：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30" name="WIDlogistics_type" value='EXPRESS'/>
+                        <span>必填，三个值可选：EXPRESS（快递）、POST（平邮）、EMS（EMS）
+</span>
+                    </dd>
+					<dt>物流支付方式：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30" name="WIDlogistics_payment" value='SELLER_PAY'/>
+                        <span>必填，两个值可选：SELLER_PAY（卖家承担运费）、BUYER_PAY（买家承担运费）
 </span>
                     </dd>
                     <dt>订单描述
