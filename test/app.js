@@ -30,8 +30,8 @@ app.configure('development', function(){
 
 require('./alipay_config').alipay.route(app);
 
-app.get('/', function(req, res){	
-	res.render("index");	
+app.get('/', function(req, res){
+	res.render("index");
 });
 
 app.get('/test', function(req, res){
@@ -42,7 +42,7 @@ app.get('/test', function(req, res){
 		console.dir(doc.getElementsByTagName('is_success').item(0).firstChild.nodeValue);
 		res.send('');
 	});
-	
+
 });
 
 app.all('/create_direct_pay_by_user', demo.create_direct_pay_by_user);
