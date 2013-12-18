@@ -10,5 +10,9 @@
     "main": "index.js",
     "dependencies": {
         "xmldom": "0.1.13"
+    },
+    "devDependencies": {
+        "express": "3.0.3",
+        "ejs": "*"
     }
 }
